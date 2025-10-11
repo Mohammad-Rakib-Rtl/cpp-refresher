@@ -1,2 +1,4 @@
 # cpp-refresher
-The Ultimate C++ Full Bundle- Total 3 Part
+
+The Ultimate C++ Full Bundle- Total 3 Part- Mosh Hamedani 
+
