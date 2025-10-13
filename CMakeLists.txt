@@ -5,4 +5,5 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(cpp_refresher
         main.cpp
-        excercise.cpp)
+        excercise.cpp
+        excercise1.cpp)
