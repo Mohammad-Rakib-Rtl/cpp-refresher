@@ -2,7 +2,9 @@
 // Created by roman on 10/11/2025.
 //
 #include <iostream>
+
 using namespace std;
+
 int main(){
 //    int file_size = 100, counter = 0;
 //    int file_size = 100;
@@ -22,11 +24,15 @@ int main(){
     int iFileSize; //Hungarian Notation
 
     //Mathematical Expressions
-    double x = 10;
-    int y = 3;
-    double z = x / y;
+//    double x = 10;
+//    int y = 3;
+//    double z = x / y;
 
-    std::cout << z << endl;
+//    std::cout << "x = " << x;
+//    std::cout << x;
+
+
+//    std::cout << z << endl;
 
     int w = 10;
     int x1 = w++;
@@ -35,25 +41,32 @@ int main(){
 //    ++w;
 //    int y1 = ++w;
 
-    cout << "-----------------" << endl;
-    cout << w << "  " << x1 << endl;
+//    cout << "-----------------" << endl;
+//    cout << w << "  " << x1 << endl;
 //    cout << w << "  " << y1 << endl;
-    cout << "-----------------" << endl;
+//    cout << "-----------------" << endl;
+//
+//    std::cout << "Hello World" << std::endl;
+//    std::cout << file_size << std::endl;
+//    std::cout << sales << endl;
 
-    std::cout << "Hello World" << std::endl;
-    std::cout << file_size << std::endl;
-    std::cout << sales << endl;
-
-    cout << "-------Order/Priorities of operators----------" << endl;
+//    cout << "-------Order/Priorities of operators----------" << endl;
     // () //we can change the order by using parenthesis
     double zx = (1 + 2) * 3;
     // * and /
     // + and -
     double xz = 1 + 2 * 3;
+//
+//    cout << xz << endl;
+//    cout << zx << endl;
 
-    cout << xz << endl;
-    cout << zx << endl;
 
+
+    // Writing output to the console
+    int x = 10;
+    int y = 101;
+    cout << "x = " << x << endl
+        << "y = " << y;
 
     return 0;
 
