@@ -7,4 +7,6 @@ add_executable(cpp_refresher
         main.cpp
         excercise.cpp
         excercise1.cpp
-        ex03.cpp)
+        ex03.cpp
+        ex04.cpp
+        ex05.cpp)

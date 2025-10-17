@@ -2,6 +2,7 @@
 // Created by roman on 10/11/2025.
 //
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
@@ -63,10 +64,39 @@ int main(){
 
 
     // Writing output to the console
-    int x = 10;
-    int y = 101;
-    cout << "x = " << x << endl
-        << "y = " << y;
+    // int x = 10;
+    // int y = 101;
+    // cout << "x = " << x << endl
+    //     << "y = " << y;
+
+
+    //reading input
+    // cout << "Please enter a value for me : ";
+    // // int value;
+    // double value, percentValue;
+    // cin >> value >> percentValue;
+    // cout << value << " " << percentValue << endl;
+
+
+    //working with the std library
+
+
+    // double result = floor(4.9);
+    double result = pow(2, 3);
+    cout << result << endl;
+
+    //always comment on top conventionally
+    // multiline comment
+    /*
+     *
+     *This is multiline comment
+     *
+     *comment for why it is and how it is
+     *
+     *use it when do any assumption
+     *
+     */
+
 
     return 0;
 
