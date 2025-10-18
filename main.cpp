@@ -1,6 +1,15 @@
 //
 // Created by roman on 10/11/2025.
-//
+//All basics
+// variable, constants, naming conventions, mathematical expressions,
+/*
+ *order of operators
+ writing output to the console
+ reading from the console
+ working with the standard library
+ comments
+ */
+
 #include <iostream>
 #include <cmath>
 

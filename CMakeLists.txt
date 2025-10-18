@@ -9,4 +9,7 @@ add_executable(cpp_refresher
         excercise1.cpp
         ex03.cpp
         ex04.cpp
-        ex05.cpp)
+        ex05.cpp
+        0001format.cpp
+        main_datatypes.cpp
+        ex06.cpp)
