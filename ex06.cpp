@@ -23,6 +23,9 @@ int main(){
     short a = (rand() % (maxValue - minValue + 1)) + minValue;
     short b = (rand() % (maxValue - minValue + 1)) + minValue;
 
+    // short a = (rand() % 6) + 1;
+    // short b = (rand() % 6) + 1;
+
     cout << a << " " << b;
 
     return 0;
