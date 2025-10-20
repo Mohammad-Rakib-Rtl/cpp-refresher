@@ -7,6 +7,7 @@
 #include <cmath>
 #include <cstdlib>
 #include <ctime>
+#include <iomanip>
 
 using namespace std;
 
@@ -67,8 +68,44 @@ int main(){
     // srand(elapsedSeconds);
     srand(time(0));
     int number = rand() % 20;
-    cout << number;
+    //  cout << number;
 
+    //  formatting output
+    cout << left;
+    cout << setw(10) << "Spring" << setw(10) << "Nice" << endl
+         << setw(10) <<  "Summer" << setw(10) << "Hot" << endl;
+
+
+    cout << "--------------------------" << endl;
+
+    cout << 12.34567 << endl;
+    cout << fixed << 12.34567 << endl;
+    cout << fixed << setprecision(10) << 12.34567 << endl
+            << 22.123456 << endl;
+
+    cout << "--------------------------" << endl;
+
+    //data types size and limits
+
+
+    int mNumber = numeric_limits<int>::max(); // min()0 mNumber-- vice versa for min, it will show largest value;
+    mNumber++; // in this case it will overflowing. it will show negative range.
+    cout << mNumber << endl;
+    cout << sizeof(int) << endl;
+    cout << numeric_limits<int>::min() << endl
+            << numeric_limits<int>::max() << endl;
+
+    cout << sizeof(bool) << endl;
+    cout << sizeof(double) << endl;
+    cout << sizeof(char) << endl;
+    cout << sizeof(float) << endl;
+
+    cout << numeric_limits<double>::min() << endl
+         << numeric_limits<double>::max() << endl;
+
+    cout << numeric_limits<float>::min() << endl
+         << numeric_limits<float>::max() << endl;
+    
 
 
 

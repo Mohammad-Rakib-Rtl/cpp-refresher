@@ -12,4 +12,5 @@ add_executable(cpp_refresher
         ex05.cpp
         0001format.cpp
         main_datatypes.cpp
-        ex06.cpp)
+        ex06.cpp
+        ex007.cpp)

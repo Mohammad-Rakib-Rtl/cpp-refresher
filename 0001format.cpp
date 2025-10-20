@@ -1,9 +1,6 @@
-//
-// Created by user on 10/18/2025.
-//
-
 
 #include <iostream>
+#include <iomanip>
 #include <cmath>
 #include <cstdlib>
 #include <ctime>
