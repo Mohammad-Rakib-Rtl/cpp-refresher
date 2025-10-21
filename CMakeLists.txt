@@ -15,4 +15,5 @@ add_executable(cpp_refresher
         ex06.cpp
         ex007.cpp
         ex008.cpp
-        ex009.cpp)
+        ex009.cpp
+        ex10.cpp)

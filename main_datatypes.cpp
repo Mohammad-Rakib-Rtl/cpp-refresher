@@ -8,6 +8,7 @@
 #include <cstdlib>
 #include <ctime>
 #include <iomanip>
+#include <limits>
 
 using namespace std;
 
