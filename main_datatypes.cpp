@@ -70,18 +70,18 @@ int main(){
     int number = rand() % 20;
     //  cout << number;
 
-    //  formatting output
-    cout << left;
-    cout << setw(10) << "Spring" << setw(10) << "Nice" << endl
-         << setw(10) <<  "Summer" << setw(10) << "Hot" << endl;
-
-
-    cout << "--------------------------" << endl;
-
-    cout << 12.34567 << endl;
-    cout << fixed << 12.34567 << endl;
-    cout << fixed << setprecision(10) << 12.34567 << endl
-            << 22.123456 << endl;
+    // //  formatting output
+    // cout << left;
+    // cout << setw(10) << "Spring" << setw(10) << "Nice" << endl
+    //      << setw(10) <<  "Summer" << setw(10) << "Hot" << endl;
+    //
+    //
+    // cout << "--------------------------" << endl;
+    //
+    // cout << 12.34567 << endl;
+    // cout << fixed << 12.34567 << endl;
+    // cout << fixed << setprecision(10) << 12.34567 << endl
+    //         << 22.123456 << endl;
 
     cout << "--------------------------" << endl;
 
@@ -105,7 +105,58 @@ int main(){
 
     cout << numeric_limits<float>::min() << endl
          << numeric_limits<float>::max() << endl;
-    
+
+    cout << "---------------------------------------" << endl;
+    // working with booleans
+
+    bool isNewUser = false;
+    cout << boolalpha << isNewUser << endl;
+    cout << noboolalpha << isNewUser << endl;
+
+
+    // cout << "---------------------------------------" << endl;
+    //working with characters and strings
+
+    char ch = 'z';
+    // cout << +ch;
+    // char ch = 99;
+    // cout << ch << endl;
+
+    // string name = "Mohammad Rakib";
+    // cout << name;
+
+    string name;
+    // cout << "Enter your nickname: ";
+    // cin >> name;
+
+    // getline(cin, name); // a function from std
+
+    // cout << "Hi " << name << endl;
+
+    cout << "---------------------------------------" << endl;
+
+    //working with arrays
+
+    int numbers[] = {10, 20};
+    // numbers[1] = 137;
+    cout << numbers[0] << endl;
+    cout << numbers[1] << endl;
+    cout << numbers[2] << endl;
+    cout << numbers[3] << endl;
+    cout << numbers[4] << endl; // size - 1
+    cout << numbers[6] << endl; // size - 1
+
+    cout << "---------------------------------------" << endl;
+
+    //type conversion
+    int xx = 1;
+    // double yy = 2.2;
+    double yy = 2.0;
+    // double zz = xx+ yy;
+    //2ways
+    // int zz = xx + (int)yy; // c style casting
+    int zz = xx + static_cast<int>(yy); // c++ casting also safer than c style casting
+    cout << zz << endl;
 
 
 
